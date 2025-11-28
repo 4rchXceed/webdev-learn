@@ -1,0 +1,40 @@
+.loader {
+    margin: 0 auto;
+}
+/* FROM: https://stackoverflow.com/questions/4000792/how-can-i-style-code-listings-using-css */
+.code_block {
+    background: #f4f4f4;
+    border: 1px solid #ddd;
+    border-left: 3px solid #f36d33;
+    color: #666;
+    page-break-inside: avoid;
+    font-family: monospace;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 1.6em;
+    max-width: 100%;
+    overflow: auto;
+    padding: 1em 1.5em;
+    position: relative;
+    display: block;
+    word-wrap: break-word;
+}
+.code_block svg {
+    right: 5%;
+    position: absolute;
+    top: 5%;
+    cursor: pointer;
+}
+.code_block textarea {
+    resize: none;
+    height: 100px;
+}
+
+iframe {
+    display: none;
+    width: 100%;
+}
+
+#pyOut {
+    height: 200px;
+}

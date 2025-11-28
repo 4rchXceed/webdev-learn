@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WebDevLearn - Homepage</title>
+  <meta name="keywords" content="learn,web,dev" />
+  <meta name="author" content="Lyam Zambaz" />
+  <meta name="description" content="A powerful devloppment platform" />
+  <link rel="stylesheet" href="./static/assets/global/simple.min.css" />
+  <link rel="stylesheet" href="./static/assets/homepage/style.css" />
+  <link rel="stylesheet" href="./static/assets/global/main.css" />
+  <script src="static/lib/sweetalert2/dist/sweetalert2.all.js"></script>
+  <script src="static/assets/learn_pages/bdd.request.js"></script>
+  <script src="static/assets/global/menu_search.js"></script>
+</head>
+
+<body>
+  <input type="checkbox" id="menu_trigger">
+  <label for="menu_trigger" class="menu"><svg xmlns="http://www.w3.org/2000/svg" width="64" height="64"
+      fill="currentColor" class="bi bi-three-dots-vertica" viewBox="0 0 16 16">
+      <path
+        d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0" />
+    </svg></label>
+  <!-- MENU START -->
+  <header>
+    <nav>
+      <a href="./index.html" class="logo"></a>
+      <ul class="main_menu">
+        <li>
+          Learn
+          <ol>
+            <li><a class="bypass_css" href="./learn/php/index.html">PHP</a></li>
+            <li><a class="bypass_css" href="./learn/python/index.html">Python</a></li>
+          </ol>
+        </li>
+
+        <li><a class="bypass_css" href="./credits.html">Credits/Licence</a></li>
+      </ul>
+      <ul class="nd_menu">
+        <li>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search"
+            viewBox="0 0 16 16">
+            <path
+              d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+          </svg>
+          <input id="search" placeholder="Search here..." type="text" />
+        </li>
+
+      </ul>
+    </nav>
+  </header>
+  <!-- MENU END -->
+  <main>
+    <section class="main_title">
+      <h1>Learn, Code and Run, in a browser</h1>
+      <h2>Self-hosted, open source.</h2>
+      <ul>
+        <li class="card">
+          <img src="./static/assets/homepage/img/php-logo.png" width="50" alt="PHP logo" />
+          <div class="texts">
+            <h5>PHP</h5>
+            <h6>+ web server</h6>
+          </div>
+        </li>
+        <li class="card">
+          <img src="./static/assets/homepage/img/python-logo.png" width="50" alt="Python logo" />
+          <div class="texts">
+            <h5>Python</h5>
+            <h6>+ libs</h6>
+          </div>
+        </li>
+      </ul>
+    </section>
+    <section>
+      <h3>
+        [THIS IS AN OLD PROJECT I MADE FOR A SCHOOL ASSIGNMENT (1st YEAR OF STUDIES), SO NO SERIOUS THINGS HERE] Welcome
+        to my platform dedicated
+        to online learning and coding!
+      </h3>
+      <article>
+        My site provides a complete and accessible programming environment
+        directly from your browser, allowing you to write, test, and run your
+        code in real-time. Whether you're a beginner or an experienced
+        developer, we offer an interactive space where you can learn,
+        practice, and refine your programming skills.
+      </article>
+      <h2>Supported Languages</h2>
+      <p>
+        We support a wide range of programming languages to meet all your
+        needs:
+      </p>
+      <ul>
+        <li>
+          <strong>PHP</strong> : Run via single file or CGI mode for dynamic
+          applications.
+        </li>
+        <li>
+          <strong>Python</strong> : With several popular libraries to enhance
+          your projects.
+        </li>
+      </ul>
+      <h2>Learning and Practice</h2>
+      <aside>
+        In addition to code execution, my platform features a dedicated
+        section for learning programming. Whether you're looking for
+        tutorials, practical exercises, or coding challenges, you'll find
+        everything you need to progress at your own pace.
+        <br />
+        Join us to explore, learn, and code directly online with all the tools
+        you need to become an expert programmer!
+      </aside>
+      <h2>Why Choose my Platform?</h2>
+      <ul>
+        <li>
+          <strong>Instant access</strong> to a development environment with no
+          installation required. (Literally just click on index.html, no server required)
+        </li>
+        <li>
+          <strong>Support for multiple languages</strong> to meet all your
+          programming needs.
+        </li>
+        <li>
+          <strong>Tutorials and learning resources</strong> to guide you
+          through each step.
+        </li>
+        <li>
+          <strong>Ease of use</strong> to code directly in your browser.
+        </li>
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <table>
+      <tr>
+        <th>Created by: </th>
+        <th><strong>Lyam Zambaz</strong></th>
+      </tr>
+      <tr>
+        <th>License:</th>
+        <th>MIT</th>
+      </tr>
+      <tr>
+        <th>Other informations:</th>
+        <th>WebDevLearn homepage...</th>
+      </tr>
+      <tr>
+        <th><a href="https://youtube.com/@Loines"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+              fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
+              <path
+                d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z" />
+            </svg></a></th>
+        <th>Thanks you for visiting my website...</th>
+      </tr>
+    </table>
+  </footer>
+</body>
+
+</html>
